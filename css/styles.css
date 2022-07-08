@@ -1,0 +1,88 @@
+/* title color (main) #212121 */
+/* text color (secondary) #757575 */
+/* logo accent #2196F3 */
+/* logo main color #000000 */
+/* hero main color #FFFFFF */
+/* footer link color rgba(255, 255, 255, 0.6) */
+/* main background color #E5E5E5 */
+/* hero, footer background color #2F303A */
+/* team background color #F5F4FA */
+
+/* Reset style */
+
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Page */
+
+.page {
+  background-color: #e5e5e5;
+  color: #757575;
+}
+
+/* Header-Logo */
+
+.header-logo {
+  color: #000000;
+}
+.header-logo span {
+  color: #2196f3;
+}
+
+/* Site-nav */
+
+.site-nav-link {
+  color: #212121;
+}
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: #2196f3;
+}
+
+/* Auth link */
+
+.auth-link {
+  color: #757575;
+}
+.auth-link:hover,
+.auth-link:focus {
+  color: #2196f3;
+}
+
+/* Hero */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+/* Section */
+
+.section-title {
+  color: #212121;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: #ffffff;
+}
+
+.footer-logo span {
+  color: #2196f3;
+}
+
+.footer-text {
+  color: #ffffff;
+}
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
