@@ -1,3 +1,3 @@
-# goit-markup-hw-01
+# goit-markup-hw-02
 HomeWork1
-https://iiimaroiii.github.io/goit-markup-hw-01/
+https://iiimaroiii.github.io/goit-markup-hw-02/
