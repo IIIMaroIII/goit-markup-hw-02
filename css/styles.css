@@ -2,7 +2,7 @@
   --title-text-color: #212121;
   --text-color: #757575;
   --accent-color: #2196f3;
-  --accent-color-secondary #188CE8;
+  --accent-color-secondary: #188ce8;
   --black-color: #000000;
   --white-color: #ffffff;
   --footer-link-color: rgba(255, 255, 255, 0.6);
@@ -31,12 +31,18 @@
   list-style: none;
   text-decoration: none;
 }
+.hero-button,
+.button {
+  cursor: pointer;
+}
 
 /* Page */
 
 .page {
   background-color: var(--primary-background-color);
   color: var(--text-color);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
 }
 
 /* Header */
@@ -46,6 +52,11 @@
 
 .header-logo {
   color: var(--black-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .header-logo span {
   color: var(--accent-color);
@@ -55,6 +66,11 @@
 
 .site-nav-link {
   color: var(--title-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav-link:hover,
 .site-nav-link:focus {
@@ -65,6 +81,11 @@
 
 .auth-link {
   color: var(--text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .auth-link:hover,
 .auth-link:focus {
@@ -79,26 +100,79 @@
 
 .hero-title {
   color: var(--white-color);
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .hero-button {
   color: var(--white-color);
   background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--accent-color-secondary);
 }
 
-/* Section */
+/* Section General*/
 
 .section-title {
   color: var(--title-text-color);
+}
+
+/* Section Features */
+
+.features .section-title {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: inherit;
+  text-transform: uppercase;
+}
+.features-text {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: inherit;
+}
+
+/* Section Job and Team */
+
+.job .section-title,
+.team .section-title {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: inherit;
 }
 
 /* Section Team */
 
 .section.team {
   background-color: var(--third-background-color);
+}
+.team-img {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: inherit;
 }
 
 /* Footer */
@@ -120,15 +194,45 @@
 .footer-link {
   color: var(--footer-link-color);
 }
-
+.footer-link,
+.footer-text {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: inherit;
+}
 
 /* Portfolio */
 
 .button {
   color: var(--title-text-color);
   background-color: var(--third-background-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: inherit;
 }
 .button:hover,
 .button:focus {
   background-color: var(--accent-color);
+}
+
+/* Benefits */
+
+.benefits-list .section-title {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.benefits-list .benefits-text {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: inherit;
 }
